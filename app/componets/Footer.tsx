@@ -48,7 +48,7 @@ const Footer = () => {
             <div>
               <ul className="text-white space-y-2 text-center md:text-left">
                 <li>
-                  <a href="#" className="hover:text-amber-300">
+                  <a href="./" className="hover:text-amber-300">
                     Amakuru
                   </a>
                 </li>
@@ -72,17 +72,17 @@ const Footer = () => {
             <div>
               <ul className="text-white space-y-2 text-center md:text-left">
                 <li>
-                  <a href="#" className="hover:text-amber-300">
+                  <a href="./video" className="hover:text-amber-300">
                     Videos
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-amber-300">
+                  <a href="./ishuri" className="hover:text-amber-300">
                     Ishuri
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-amber-300">
+                  <a href="./twandikire" className="hover:text-amber-300">
                     Twandikire
                   </a>
                 </li>

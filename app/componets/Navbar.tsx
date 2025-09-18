@@ -85,7 +85,7 @@ export default function Navbar() {
 
             {/* Link1 + Link2 */}
             <Link href="/" className="hover:text-blue-400">AHABANZA</Link>
-            <Link href="/link2" className="hover:text-blue-400">ABO TURIBO</Link>
+            <Link href="/aboturibo" className="hover:text-blue-400">ABO TURIBO</Link>
           </div>
         </div>
 
@@ -106,7 +106,7 @@ export default function Navbar() {
         <div className="hidden md:flex items-center space-x-4">
           <Link href="/video" className="hover:text-blue-400">VIDEO</Link>
           <Link href="/ishuri" className="hover:text-blue-400">ISHURI</Link>
-          <Link href="/twandikire" className="hover:text-blue-400 bg-gray-900 px-5 py-2 rounded-sm">TWANDIKIRE</Link>
+          <Link href="/twandikire" className="hover:text-black bg-amber-600 px-5 py-2 rounded-sm">TWANDIKIRE</Link>
         </div>
 
         {/* Mobile: Hamburger button (top right) */}
@@ -155,7 +155,7 @@ export default function Navbar() {
       {isMobileMenuOpen && (
         <div className="md:hidden mt-4 space-y-3 px-4">
           <Link href="/" className="block text-white hover:text-blue-400">AHABANZA</Link>
-          <Link href="/" className="block text-white hover:text-blue-400">ABO TURIBO</Link>
+          <Link href="/aboturibo" className="block text-white hover:text-blue-400">ABO TURIBO</Link>
           <Link href="./VIDEO" className="block text-white hover:text-blue-400">VIDEO</Link>
           <Link href="/" className="block text-white hover:text-blue-400">ISHURI</Link>
           <Link href="/" className="block text-white hover:text-blue-400">TWANDIKIRE</Link>
