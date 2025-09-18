@@ -84,7 +84,7 @@ export default function Navbar() {
             </div>
 
             {/* Link1 + Link2 */}
-            <Link href="/link1" className="hover:text-blue-400">AHABANZA</Link>
+            <Link href="/" className="hover:text-blue-400">AHABANZA</Link>
             <Link href="/link2" className="hover:text-blue-400">ABO TURIBO</Link>
           </div>
         </div>
@@ -104,9 +104,9 @@ export default function Navbar() {
 
         {/* Right section */}
         <div className="hidden md:flex items-center space-x-4">
-          <Link href="/link3" className="hover:text-blue-400">VIDEO</Link>
-          <Link href="/link4" className="hover:text-blue-400">ISHURI</Link>
-          <Link href="/link5" className="hover:text-blue-400 bg-gray-900 px-5 py-2 rounded-sm">TWANDIKIRE</Link>
+          <Link href="/video" className="hover:text-blue-400">VIDEO</Link>
+          <Link href="/ishuri" className="hover:text-blue-400">ISHURI</Link>
+          <Link href="/twandikire" className="hover:text-blue-400 bg-gray-900 px-5 py-2 rounded-sm">TWANDIKIRE</Link>
         </div>
 
         {/* Mobile: Hamburger button (top right) */}
@@ -154,14 +154,14 @@ export default function Navbar() {
       {/* Mobile Dropdown: Full Menu */}
       {isMobileMenuOpen && (
         <div className="md:hidden mt-4 space-y-3 px-4">
-          <Link href="/link1" className="block text-white hover:text-blue-400">AHABANZA</Link>
-          <Link href="/link2" className="block text-white hover:text-blue-400">ABO TURIBO</Link>
-          <Link href="/link3" className="block text-white hover:text-blue-400">VIDEO</Link>
-          <Link href="/link4" className="block text-white hover:text-blue-400">ISHURI</Link>
-          <Link href="/link5" className="block text-white hover:text-blue-400">TWANDIKIRE</Link>
-          <Link href="/dropdown1" className="block text-white hover:text-blue-400">IMYIDAGADURO</Link>
-          <Link href="/dropdown2" className="block text-white hover:text-blue-400">IBIGANIRO</Link>
-          <Link href="/dropdown3" className="block text-white hover:text-blue-400">UBUMENYI</Link>
+          <Link href="/" className="block text-white hover:text-blue-400">AHABANZA</Link>
+          <Link href="/" className="block text-white hover:text-blue-400">ABO TURIBO</Link>
+          <Link href="./VIDEO" className="block text-white hover:text-blue-400">VIDEO</Link>
+          <Link href="/" className="block text-white hover:text-blue-400">ISHURI</Link>
+          <Link href="/" className="block text-white hover:text-blue-400">TWANDIKIRE</Link>
+          <Link href="/" className="block text-white hover:text-blue-400">IMYIDAGADURO</Link>
+          <Link href="/" className="block text-white hover:text-blue-400">IBIGANIRO</Link>
+          <Link href="/" className="block text-white hover:text-blue-400">UBUMENYI</Link>
         </div>
       )}
     </nav>

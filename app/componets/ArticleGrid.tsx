@@ -6,7 +6,7 @@ const ArticleGrid = () => {
   const articles = [
     {
       id: 1,
-      title: "IBINTU 10 BIDADANZWE KURI Louise MUSHIKIWABO",
+      title: "IBINTU 10 BIDASANZWE KURI Louise MUSHIKIWABO",
       author: "JACKSON DUSHIMIMANA",
       buttonText: "SOMA BIRAMBUYE",
       image: "/11.jpeg"
@@ -55,7 +55,7 @@ const ArticleGrid = () => {
           <div key={article.id} className="bg-white rounded-lg">
             <div className="flex flex-col md:flex-row gap-6 p-4">
               {/* Image */}
-              <div className="w-full md:w-[280px] h-[200px] relative flex-shrink-0 rounded-lg overflow-hidden bg-gray-200">
+              <div className="w-full md:w-[280px] h-[200px] relative flex-shrink-0 rounded-lg overflow-hidden bg-gray-200 hover:opacity-80">
                 <Image
                   src={article.image}
                   alt={article.title}

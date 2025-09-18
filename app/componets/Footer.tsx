@@ -104,7 +104,7 @@ const Footer = () => {
               />
             </form>
             <p className="text-gray-400 text-sm pt-12">
-              Copyright Red Blue Jd Rwanda &copy; 2025, All Rights Reserved
+              Red Blue Jd Rwanda &copy; 2025, All Rights Reserved
             </p>
           </div>
         </div>

@@ -8,7 +8,6 @@ import WhatsAppFloatingButton from "./componets/WhatsAppFloatingButton";
 export default function Home() {
   return (
     <>
-     <Navbar />
     <div className="bg-sky-800 py-20 md:py-40 text-center text-white px-4 sm:px-8 md:px-20">
   <h1 className="text-3xl sm:text-4xl md:text-7xl font-extrabold mb-4">
     Murakaza neza <br /> Mu'Isi yo Gucukumbura
@@ -119,7 +118,7 @@ export default function Home() {
     
     {/* Row 1 */}
     <div className="flex flex-wrap justify-center gap-2">
-      <a href="/ikoranabuhanga" className="border border-blue-800 rounded-full px-15 py-2 md:px-8 md:py-2 text-sm font-medium hover:bg-gray-100 transition">
+      <a href="/Ikoranabuhanga" className="border border-blue-800 rounded-full px-15 py-2 md:px-8 md:py-2 text-sm font-medium hover:bg-gray-100 transition">
         Ikoranabuhanga
       </a>
       <a href="/amateka" className="border border-blue-800 rounded-full px-15 py-2 md:px-8 md:py-2 text-sm font-medium hover:bg-gray-100 transition">
@@ -141,7 +140,7 @@ export default function Home() {
       <a href="/politike" className="border border-blue-800 rounded-full px-8 py-2 text-sm font-medium hover:bg-gray-100 transition">
         Politike
       </a>
-      <a href="/ubumenyi-muntu" className="border border-blue-800 rounded-full px-8 py-2 text-sm font-medium hover:bg-gray-100 transition">
+      <a href="/ubumenya-muntu" className="border border-blue-800 rounded-full px-8 py-2 text-sm font-medium hover:bg-gray-100 transition">
         Ubumenya-muntu
       </a>
     </div>
@@ -151,7 +150,6 @@ export default function Home() {
 {/*=================================titles Section*=======================================================*/}
  <ArticleGrid />
  <SmallCardsSection/>
-<Footer/>
 <WhatsAppFloatingButton/>
    </>
   );
