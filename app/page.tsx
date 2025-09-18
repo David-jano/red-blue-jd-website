@@ -9,14 +9,15 @@ export default function Home() {
   return (
     <>
      <Navbar />
-    <div className="bg-sky-800 py-20 md:py-40 text-center text-white px-20">
-  <h1 className="text-5xl md:text-7xl font-extrabold mb-4">
+    <div className="bg-sky-800 py-20 md:py-40 text-center text-white px-4 sm:px-8 md:px-20">
+  <h1 className="text-3xl sm:text-4xl md:text-7xl font-extrabold mb-4">
     Murakaza neza <br /> Mu'Isi yo Gucukumbura
   </h1>
-  <p className="text-2xl font-light">
+  <p className="text-lg sm:text-xl md:text-2xl font-light">
     Irembo ry’Afurika ku Mashusho y’Ubumenyi n’Ubushakashatsi!
   </p>
-</div>
+    </div>
+
 {/*=================================cards layout section*=======================================================*/}
 
 <div className="max-w-7xl mx-auto p-10">
