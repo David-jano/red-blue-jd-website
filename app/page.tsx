@@ -1,7 +1,10 @@
 import Image from "next/image";
 import Navbar from './componets/Navbar';
 import Link from "next/link";
-
+import ArticleGrid from './componets/ArticleGrid';
+import SmallCardsSection from './componets/SmallCardsSection';
+import Footer from "./componets/Footer";
+import WhatsAppFloatingButton from "./componets/WhatsAppFloatingButton";
 export default function Home() {
   return (
     <>
@@ -138,13 +141,17 @@ export default function Home() {
         Politike
       </a>
       <a href="/ubumenyi-muntu" className="border border-blue-800 rounded-full px-8 py-2 text-sm font-medium hover:bg-gray-100 transition">
-        Ubumenyi-muntu
+        Ubumenya-muntu
       </a>
     </div>
 
   </div>
 </div>
 {/*=================================titles Section*=======================================================*/}
+ <ArticleGrid />
+ <SmallCardsSection/>
+<Footer/>
+<WhatsAppFloatingButton/>
    </>
   );
 }
