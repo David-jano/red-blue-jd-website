@@ -6,6 +6,9 @@ import SmallCardsSection from './componets/SmallCardsSection';
 import Footer from "./componets/Footer";
 import WhatsAppFloatingButton from "./componets/WhatsAppFloatingButton";
 import App from "./componets/App";
+import { Analytics } from "@vercel/analytics/next"
+
+
 export default function Home() {
   return (
     <>
