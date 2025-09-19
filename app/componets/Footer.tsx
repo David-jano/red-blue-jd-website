@@ -90,7 +90,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="w-full md:w-1/3 mt-7 flex flex-col items-center">
+          <div className="w-xlg md:w-1/3 mt-7 flex flex-col items-center">
             <form className="flex w-full max-w-md">
               <input
                 type="text"

@@ -27,7 +27,7 @@ const CardLayoutSection = () => {
               <h2 className="text-3xl font-bold text-gray-900 mb-4">
                 H.E Paul Kagame Yasuye ingabo ziri i Gako
               </h2>
-              <p className="text-gray-600 mb-6">Jackson SEMAHORO</p>
+              <p className="text-gray-600 mb-6">To provide internationally recognised professional training courses and educational programmes informed by applied research to equip military.</p>
               <button className="bg-black text-white px-6 py-3 rounded-lg font-medium hover:bg-gray-800 transition-colors duration-200">
                 SOMA BIRAMBUYE
               </button>
@@ -42,12 +42,12 @@ const CardLayoutSection = () => {
             {
               img: "/222.jpg",
               title: "Commander-in-Chief of RDF convenes High Command Council at RMA – Gako",
-              author: "Mia Robinson",
+              author: "President Kagame and Commander-in-Chief of the Rwanda Defence Force (RDF) chaired the Force's High Command Council",
             },
             {
               img: "/333.jpg",
               title: "Gako Military Academy Newest Building",
-              author: "Moses Ukwishaka",
+              author: "The training that was held at Rwanda Military Academy GAKO, focused on key areas including Counter-terrorism, VIP Protection, and anti-riots.",
             },
            
           ].map((card, index) => (

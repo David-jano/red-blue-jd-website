@@ -7,42 +7,42 @@ const ArticleGrid = () => {
     {
       id: 1,
       title: "IBINTU 10 BIDASANZWE KURI Louise MUSHIKIWABO",
-      author: "JACKSON DUSHIMIMANA",
+      author: "Louise Mushikiwabo ni umunyamabanga mukuru w’umuryango mpuzamahanga de la Francophonie",
       buttonText: "SOMA BIRAMBUYE",
       image: "/11.jpeg"
     },
     {
       id: 2,
       title: "Aba ministri bagize Senate Nshya barahiye",
-      author: "JACKSON DUSHIMIMANA",
+      author: "Guverinoma yatangiye manda ya kane ya Perezida Paul Kagame, yari igizwe n’abaminisitiri 21.",
       buttonText: "SOMA BIRAMBUYE",
       image: "/22.jpg"
     },
     {
       id: 3,
       title: "H.E Paul Kagame yimitse Senate Nshya",
-      author: "JACKSON DUSHIMIMANA",
+      author: "Muri abo bashyizweho icyo gihe, icyenda muri bo, ntabwo bakiri mu nshingano, abo barangajwe imbere n’uwari Minisitiri w’Intebe.",
       buttonText: "SOMA BIRAMBUYE",
       image: "/33.jpeg"
     },
     {
       id: 4,
       title: "Menya abazige department ya Head Officers",
-      author: "JACKSON DUSHIMIMANA",
+      author: "Mu bandi bavuye muri iyi Guverinoma harimo Dr. Uwamariya Valentine wari Minisitiri w’Ibidukikije.",
       buttonText: "SOMA BIRAMBUYE",
       image: "/44.jpg"
     },
     {
       id: 5,
       title: "Umunyeshuri wo muri Saint Andrew yakoze i Robot",
-      author: "JACKSON DUSHIMIMANA",
+      author: " Ni Robot yanditse amateka yitabira inama nyinshi z'ikoranabuhanga ndetse ibasha no kuvugira ahirengeye nko mu Nama y'Umuryango w'Abibumbye.",
       buttonText: "SOMA BIRAMBUYE",
       image: "/55.jpg"
     },
     {
       id: 6,
       title: "Ruhango Saint Trinite Basuwe Minister Dr.Ngirente",
-      author: "JACKSON DUSHIMIMANA",
+      author: "Dr Ngirente Edouard yanyuzwe n'imyaka 8 yabaye Minisitiri w'Intebe | Umukoro yatanze ku Banyarwanda.",
       buttonText: "SOMA BIRAMBUYE",
       image: "/66.jpg"
     }
@@ -71,7 +71,7 @@ const ArticleGrid = () => {
                     {article.title}
                   </h3>
                   <p className="text-xs text-gray-600 mb-3">
-                    BY <span className="underline">{article.author}</span>
+                    <span className="block text-justify">{article.author}</span>
                   </p>
                 </div>
 

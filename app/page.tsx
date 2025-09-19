@@ -5,17 +5,22 @@ import ArticleGrid from './componets/ArticleGrid';
 import SmallCardsSection from './componets/SmallCardsSection';
 import Footer from "./componets/Footer";
 import WhatsAppFloatingButton from "./componets/WhatsAppFloatingButton";
+import App from "./componets/App";
 export default function Home() {
   return (
     <>
-    <div className="bg-sky-800 py-20 md:py-40 text-center text-white px-4 sm:px-8 md:px-20">
+   <div
+  className="relative bg-cover bg-center bg-no-repeat py-10 md:py-50 text-center text-white px-4 sm:px-8 md:px-20"
+  style={{ backgroundImage: "url('/nnb.jpg')" }}
+>
   <h1 className="text-3xl sm:text-4xl md:text-7xl font-extrabold mb-4">
     Murakaza neza <br /> Mu'Isi yo Gucukumbura
   </h1>
   <p className="text-lg sm:text-xl md:text-2xl font-light">
     Irembo ry’Afurika ku Mashusho y’Ubumenyi n’Ubushakashatsi!
   </p>
-    </div>
+</div>
+
 
 {/*=================================cards layout section*=======================================================*/}
 
@@ -39,9 +44,10 @@ export default function Home() {
         {/* Content */}
         <div className="p-6">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            H.E Paul Kagame Yasuye ingabo ziri i Gako
+            H.E Paul Kagame Yasuye ingabo ziri Igabiro
           </h2>
-          <p className="text-gray-600 mb-6">Jackson SEMAHORO</p>
+          <p className="text-gray-600 mb-6">
+            Perezida Paul Kagame akaba n’Umugaba w’Ikirenga w’Ingabo z’u Rwanda, yagejeje ijambo ku basirikare bagera ku bihumbi 6,  i Gabiro. </p>
           <button className="bg-black text-white px-6 py-3 rounded-lg font-medium hover:bg-gray-800 transition-colors duration-200">
             SOMA BIRAMBUYE
           </button>
@@ -72,7 +78,9 @@ export default function Home() {
             <h3 className="text-base font-bold text-gray-900 mb-2 leading-tight">
               Igisirikare cya Navy seal ziri muri Ukraine
             </h3>
-            <p className="text-sm text-gray-600 mb-3">Mia Robinson</p>
+            <p className="text-sm text-gray-600 mb-3">
+              Igitero cy'ubwihanduzacumu cya Ukraine cyatanze ubutumwa bukomeye ku Burusiya no ku burengerazuba
+            </p>
             <button className="text-xs bg-transparent border border-gray-300 text-gray-700 px-4 py-2 rounded-full hover:bg-gray-50 transition-colors duration-200">
               SOMA BIRAMBUYE
             </button>
@@ -100,7 +108,9 @@ export default function Home() {
             <h3 className="text-base font-bold text-gray-900 mb-2 leading-tight">
               Amapeti yatanzwe ku ngabo zarwanye muri Pakstan
             </h3>
-            <p className="text-sm text-gray-600 mb-3">Moses Ukwishaka</p>
+            <p className="text-sm text-gray-600 mb-3">
+              Afghanistani: Abatalibani babujije ikoreshwa muri kaminuza ry'ibitabo byanditswe n'abagore
+            </p>
             <button className="text-xs bg-transparent border border-gray-300 text-gray-700 px-4 py-2 rounded-full hover:bg-gray-50 transition-colors duration-200">
               SOMA BIRAMBUYE
             </button>
