@@ -72,7 +72,7 @@ const CardLayoutSection = () => {
                   <h3 className="text-base font-bold text-gray-900 mb-2 leading-tight">
                     {card.title}
                   </h3>
-                  <p className="text-sm text-gray-600 mb-3">{card.author}</p>
+                  <p className="text-sm text-gray-600 mb-3 text-justify">{card.author}</p>
                   <button className="text-xs bg-transparent border border-gray-300 text-gray-700 px-4 py-2 rounded-full hover:bg-gray-50 transition-colors duration-200">
                     SOMA BIRAMBUYE
                   </button>
