@@ -9,6 +9,7 @@ const ArticleGrid = () => {
       title: "IBINTU 10 BIDASANZWE KURI Louise MUSHIKIWABO",
       author: "Louise Mushikiwabo ni umunyamabanga mukuru w’umuryango mpuzamahanga de la Francophonie",
       buttonText: "SOMA BIRAMBUYE",
+      label:"Politiki",
       image: "/11.jpeg"
     },
     {
@@ -16,6 +17,7 @@ const ArticleGrid = () => {
       title: "Aba ministri bagize Senate Nshya barahiye",
       author: "Guverinoma yatangiye manda ya kane ya Perezida Paul Kagame, yari igizwe n’abaminisitiri 21.",
       buttonText: "SOMA BIRAMBUYE",
+      label:"Politiki",
       image: "/22.jpg"
     },
     {
@@ -23,6 +25,7 @@ const ArticleGrid = () => {
       title: "H.E Paul Kagame yimitse Senate Nshya",
       author: "Muri abo bashyizweho icyo gihe, icyenda muri bo, ntabwo bakiri mu nshingano, abo barangajwe imbere n’uwari Minisitiri w’Intebe.",
       buttonText: "SOMA BIRAMBUYE",
+      label:"Politiki",
       image: "/33.jpeg"
     },
     {
@@ -30,6 +33,7 @@ const ArticleGrid = () => {
       title: "Menya abazige department ya Head Officers",
       author: "Mu bandi bavuye muri iyi Guverinoma harimo Dr. Uwamariya Valentine wari Minisitiri w’Ibidukikije.",
       buttonText: "SOMA BIRAMBUYE",
+      label:"Politiki",
       image: "/44.jpg"
     },
     {
@@ -37,6 +41,7 @@ const ArticleGrid = () => {
       title: "Umunyeshuri wo muri Saint Andrew yakoze i Robot",
       author: " Ni Robot yanditse amateka yitabira inama nyinshi z'ikoranabuhanga ndetse ibasha no kuvugira ahirengeye nko mu Nama y'Umuryango w'Abibumbye.",
       buttonText: "SOMA BIRAMBUYE",
+      label:"Uburezi",
       image: "/55.jpg"
     },
     {
@@ -44,6 +49,7 @@ const ArticleGrid = () => {
       title: "Ruhango Saint Trinite Basuwe Minister Dr.Ngirente",
       author: "Dr Ngirente Edouard yanyuzwe n'imyaka 8 yabaye Minisitiri w'Intebe | Umukoro yatanze ku Banyarwanda.",
       buttonText: "SOMA BIRAMBUYE",
+      label:"Uburezi",
       image: "/66.jpg"
     }
   ];
@@ -61,17 +67,21 @@ const ArticleGrid = () => {
                   alt={article.title}
                   fill
                   className="object-cover"
-                />
+                /> 
               </div>
 
               {/* Content */}
               <div className="flex-1 flex flex-col mt-4 md:mt-0">
-                <div>
-                  <h3 className="font-bold text-gray-900 text-sm leading-tight mb-2">
-                    {article.title}
+                              <div>
+                  <h3 className="font-bold text-gray-900 text-sm leading-tight mb-2 flex justify-between items-center">
+                    <span>{article.title}</span>
+                   
                   </h3>
-                  <p className="text-xs text-gray-600 mb-3">
-                    <span className="block text-justify">{article.author}</span>
+                  <p className="text-xs text-gray-600 mb-2">
+                    <span className="block text-justify mb-3">{article.author}</span>
+                     <span className="rounded-full bg-gray-200  text-black px-1.5 py-0.5 text-[0.65rem] font-semibold">
+                      {article.label}
+                    </span>
                   </p>
                 </div>
 
