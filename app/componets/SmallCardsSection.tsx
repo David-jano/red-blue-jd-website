@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 
 const largeCard = {
-  img: "/111.jpg",
+  img: "/president.jpg",
   title: "H.E Paul Kagame Yasuye ingabo ziri i Gako",
   description:
     "To provide internationally recognised professional training courses and educational programmes informed by applied research to equip military.",
