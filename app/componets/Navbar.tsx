@@ -69,22 +69,22 @@ export default function Navbar() {
               {/* Dropdown Links */}
               {isMobileMenuOpen && (
                 <div className="absolute bg-white mt-2 py-2 w-56 rounded shadow z-20">
-                  <Link href="/dropdown1" className="flex items-center gap-2 px-4 py-2 text-black hover:bg-gray-100">
+                  <Link href="/imyidagaduro" className="flex items-center gap-2 px-4 py-2 text-black hover:bg-gray-100">
                     <FaLaughBeam /> IMYIDAGADURO
                   </Link>
-                  <Link href="/dropdown2" className="flex items-center gap-2 px-4 py-2 text-black hover:bg-gray-100">
+                  <Link href="/ibiganiro" className="flex items-center gap-2 px-4 py-2 text-black hover:bg-gray-100">
                     <FaComments /> IBIGANIRO
                   </Link>
-                  <Link href="/dropdown3" className="flex items-center gap-2 px-4 py-2 text-black hover:bg-gray-100">
+                  <Link href="/ibitabo" className="flex items-center gap-2 px-4 py-2 text-black hover:bg-gray-100">
                     <FaBookOpen /> IBITABO
                   </Link>
-                  <Link href="/dropdown4" className="flex items-center gap-2 px-4 py-2 text-black hover:bg-gray-100">
+                  <Link href="/ubuzima" className="flex items-center gap-2 px-4 py-2 text-black hover:bg-gray-100">
                     <FaHeartbeat /> UBUZIMA
                   </Link>
-                  <Link href="/dropdown5" className="flex items-center gap-2 px-4 py-2 text-black hover:bg-gray-100">
-                    <FaUserFriends /> UMUNYA-MUNTU
+                  <Link href="/ubumenyamuntu" className="flex items-center gap-2 px-4 py-2 text-black hover:bg-gray-100">
+                    <FaUserFriends /> UBUMENYA-MUNTU
                   </Link>
-                  <Link href="/dropdown6" className="flex items-center gap-2 px-4 py-2 text-black hover:bg-gray-100">
+                  <Link href="/ubugeni" className="flex items-center gap-2 px-4 py-2 text-black hover:bg-gray-100">
                     <FaPaintBrush /> UBUGENI
                   </Link>
                 </div>
