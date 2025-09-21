@@ -35,7 +35,7 @@ const CardLayoutSection = () => {
           </div>
         </div>
 
-        {/* 🟡 Small Cards - Right Side */}
+        {/* Small Cards - Right Side */}
         <div className="lg:col-span-2 flex flex-col gap-6">
           {/* Reusable Small Card */}
           {[
