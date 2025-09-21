@@ -1,5 +1,8 @@
 import React, { useRef, useEffect, useState } from "react";
-const cn = (...classes) => classes.filter(Boolean).join(" ");
+
+const cn = (...classes: (string | false | null | undefined)[]): string =>
+  classes.filter(Boolean).join(" ");
+
 
 export interface ThreeDHoverGalleryProps {
   images?: string[];
