@@ -8,7 +8,7 @@ const HeroSection = () => {
         {/* Left Side: Text and Button */}
         <div className="text-center md:text-left md:w-1/2 p-4">
           <p className="text-black bg-amber-400 rounded-full font-semibold mb-2 px-4 w-fit">
-            Red Blue Jd Rwanda
+            RedBlue Jd Rwanda
           </p>
           <h1 className="text-5xl md:text-6xl font-extrabold text-[#333] leading-tight mb-4">
             Murakaza neza Mu isi<br />  yo Gucukumbura
