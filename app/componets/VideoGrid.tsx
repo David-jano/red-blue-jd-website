@@ -88,7 +88,7 @@ const NewVideoGrid = () => {
           </div>
         </div>
 
-        {/* Two Small Cards */}
+        {/* Two Small Cards along with desc*/}
         <div className="lg:col-span-1 flex flex-col gap-6">
           {smallCards.map((article) => (
             <div key={article.id} className="bg-white rounded-2xl overflow-hidden hover:shadow-xl transition-shadow duration-300">
