@@ -24,7 +24,6 @@ const HeroSection = () => {
     </span>
   </button>
 </div>
-
         </div>
 
         {/* Right Side: Image and Floating Elements */}

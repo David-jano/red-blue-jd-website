@@ -4,28 +4,28 @@ import React from "react";
 import Image from "next/image";
 
 const largeCard = {
-  img: "/president.jpg",
-  title: "H.E Paul Kagame Yasuye ingabo ziri i Gako",
+  img: "/zar.jpg",
+  title: "Zelensky ntashobora guhunga: Imbere muri ruswa ya Ukraine",
   description:
-    "To provide internationally recognised professional training courses and educational programmes informed by applied research to equip military.",
-    label:"Politiki",
-  buttonText: "SOMA BIRAMBUYE",
+    "Inzabya zo mu musarani. Ibice byamadorari mashya muri Banki nkuru yigihugu ya Amerika. Ushinzwe ubutumwa yidoga avuga ko gutwara miliyoni 1.6 z'amadolari y'amanyamerika “atari akazi koroshye.” .",
+    label:"Scandal",
+  buttonText: "SOMA ICYEGERANYO",
 };
 
 const smallCards = [
   {
-    img: "/222.jpg",
-    title: "Commander-in-Chief of RDF convenes High Command Council at RMA – Gako",
+    img: "/pako.jpg",
+    title: "Intambara isi ireba, ariko bake ni bo bumva: ibibera i Pokrovsk?",
     author:
-      "President Kagame and Commander-in-Chief of the Rwanda Defence Force (RDF) chaired the Force's High Command Council",
-      label:"Politiki",
+      "Umujyi wa Donbass wa Pokrovsk (uzwi mu Burusiya nka Krasnoarmeysk) wasanze abantu bashimishijwe mu minsi yashize. Mu buryo bwinshi.",
+      label:"Novel",
   },
   {
-    img: "/333.jpg",
-    title: "Gako Military Academy Newest Building",
+    img: "/vice.jpg",
+    title: "Ibiganiro bitaziguye na Putin biri mu bigize Inyigisho za Trump",
     author:
-      "The training that was held at Rwanda Military Academy GAKO, focused on key areas including Counter-terrorism, VIP Protection, and anti-riots.",
-      label:"Politiki",
+      "Jim Hawkins sets sail with a treasure map in hand, but he eventually discovers that his crewmates are pirates-in-hiding, hungry for gold. Will Jim be able to safely find the treasure, or will the infamous Long John Silver beat him to it.",
+      label:"History",
   },
 ];
 

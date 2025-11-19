@@ -60,7 +60,7 @@ export default function TestimonialsSection() {
   const itemsPerPage = 3;
   const totalSlides = Math.ceil(testimonials.length / itemsPerPage);
 
-  // 🔁 Auto-slide every 5 seconds
+  //Auto-slide every 5 seconds
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % totalSlides);
