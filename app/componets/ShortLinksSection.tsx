@@ -2,15 +2,15 @@ import Link from "next/link";
 
 const shortLinks = [
   [
-    { href: "/Ikoranabuhanga", label: "Ikoranabuhanga" },
+    { href: "/ibyegeranyo", label: "Ibyegeranyo" },
     { href: "/amateka", label: "Amateka" },
     { href: "/siyanse", label: "Siyanse" },
     { href: "/ibitabo", label: "Ibitabo" },
   ],
   [
     { href: "/ubuzima", label: "Ubuzima" },
-    { href: "/politike", label: "Politike" },
-    { href: "/ubumenya-muntu", label: "Ubumenya-muntu" },
+    { href: "/ubumenyamuntu", label: "Ubumenya-muntu" },
+    { href: "/philosoph", label: "Philosoph" },
   ],
 ];
 

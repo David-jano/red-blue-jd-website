@@ -92,8 +92,8 @@ export default function TestimonialsSection() {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-            What Our Students Say
+          <h2 className="text-3xl md:text-2xl lg:text-5xl font-bold text-gray-800 mb-4">
+            Icyo abatuzi batuvugaho
           </h2>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto">
             Discover how Red Blue JD Film School has transformed careers and opened new opportunities for our students.

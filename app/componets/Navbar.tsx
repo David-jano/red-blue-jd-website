@@ -245,13 +245,13 @@ export default function Navbar() {
         }`}
       >
         <Link
-          href="/imyidagaduro"
+          href="/amateka"
           className="flex items-center gap-2 px-4 py-2 text-black hover:bg-gray-100"
         >
           <FaFolder /> AMATEKA
         </Link>
         <Link
-          href="/ibiganiro"
+          href="/siyanse"
           className="flex items-center gap-2 px-4 py-2 text-black hover:bg-gray-100"
         >
           <FaFlask /> SIYANSE
@@ -285,6 +285,12 @@ export default function Navbar() {
           className="flex items-center gap-2 px-4 py-2 text-black hover:bg-gray-100"
         >
           <FaBook /> IBYEGERANYO
+        </Link>
+        <Link
+          href="/philosoph"
+          className="flex items-center gap-2 px-4 py-2 text-black hover:bg-gray-100"
+        >
+          <FaBook /> PHILOSOPH
         </Link>
       </div>
 

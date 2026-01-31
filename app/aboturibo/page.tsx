@@ -62,17 +62,16 @@ export default function Aboturibo() {
               <h4 className="text-orange-500 font-semibold text-sm uppercase tracking-wide mb-4">
                 ABO TURIBO
               </h4>
-              <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                We are Innovative Business Technology College
+              <h2 className="text-xl lg:text-2xl font-bold text-gray-900 leading-tight">
+                Turi Ikigo cy’Ikoranabuhanga n’Ubucuruzi gihanga udushya.
               </h2>
             </div>
             
-            <p className="text-gray-600 text-lg leading-relaxed">
-              Established in 2012, we are proud to be the first and only film, design 
-              school in The Great Lakes offering short courses in full practical 
-              package which equips students with global digital skills on the 
-              market. Established in 2012, we are proud to be the first and only film, 
-              design school in The Great Lakes.
+            <p className="text-gray-600 text-lg leading-relaxed text-justify">
+              RedBlue JD Ltd ni kompanyi nyarwanda ikora ibijyanye na media-production n’architecture, yashinzwe na Jackson Dushimimana. 
+              Yatangiye gushyira hanze documentaries kuri YouTube mu 2015, ubu ikaba ifite abarenga miliyoni 1.5 bayikurikira ndetse ikaba 
+              yarahawe Silver na Gold Play Button. Yanditswe muri RDB mu 2018 kandi ikorera n’itsinda ry’abantu bari hagati ya 20. Mu mishinga yayo, 
+              imaze guhugura no guha amahirwe y’akazi urubyiruko rurenze 100, bamwe muri bo batangije kompanyi zabo za media.
             </p>
 
             {/* Video Button */}
@@ -84,8 +83,8 @@ export default function Aboturibo() {
                   </svg>
                 </div>
                 <div className="text-left">
-                  <p className="text-sm text-gray-500 mb-1">Click to play</p>
-                  <p className="text-lg font-semibold text-gray-900">PROMO VIDEO</p>
+                  <p className="text-sm text-gray-500 mb-1">Kanda Urebe Amateka Yacu</p>
+                  <p className="text-lg font-semibold text-gray-900">REBA VIDEO</p>
                 </div>
               </button>
             </div>

@@ -10,7 +10,7 @@ export default function IshuriPage() {
       {/* Always show 3 columns */}
       <div>
         <CourseCard />
-          <CourseCard />
+          
       </div>
     </div>
   );
